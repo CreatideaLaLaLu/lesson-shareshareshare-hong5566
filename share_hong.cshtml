@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>分享網站標籤工具</h2>
+<hr />
+<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+    <a class="a2a_button_facebook"></a>
+    <a class="a2a_button_twitter"></a>
+    <a class="a2a_button_google_plus"></a>
+</div>
+
+<div class="sharethis-inline-share-buttons"></div>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools --> 
+<div class="addthis_inline_share_toolbox"></div>
+
+
+
+
+@section scripts{
+    
+<script>
+        var a2a_config = a2a_config || {};
+        a2a_config.locale = "zh-TW";
+        a2a_config.num_services = 4;
+</script>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+@*<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5af3b0f16ab6d70011d97282&product=inline-share-buttons"></script>*@
+<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5af3b0f16ab6d70011d97282&product=inline-share-buttons" async="async"> </script>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5af3b40a80d39c8d"></script>
+
+}
+
+    
